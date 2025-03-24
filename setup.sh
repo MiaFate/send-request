@@ -1,7 +1,7 @@
 #!/bin/zsh
 dir=$(pwd)
 #agregar la variable dir a la segunda linea del archivo finished.txt con sed
-
+go build -o sendreq main.go
 chmod +x scriptrunner.sh
 #write out current crontab
 crontab -l > mycron

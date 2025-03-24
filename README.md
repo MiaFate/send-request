@@ -3,9 +3,10 @@
  go build -o sendreq main.go
 ```
 
-### 2. add your token into sample.env file and rename it to .env
+### 2. add your token and url into sample.env file and rename it to .env
 ```
 BEARER=your_token_here
+URL=your_url_here
 ```
 ### 3. finished.txt must have just an empty line
 
